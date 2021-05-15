@@ -310,10 +310,10 @@ nav {
 }
 
 
-.portfolio-item img {
+ img {
   width: 100%;
   overflow: hidden;
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
   padding:32px;
 }
 
@@ -333,7 +333,7 @@ nav {
 
 
 .portfolio-item:hover img {
-  filter: grayscale(0%);
+ /* filter: grayscale(0%);*/
 }
 
 
