@@ -1,3 +1,7 @@
+
+
+
+
 body {
   font-family: 'Kanit', sans-serif;
 }
@@ -309,7 +313,9 @@ nav {
  img {
   width: 100%;
   overflow: hidden;
-  padding:32px;
+  /*filter: grayscale(100%);*/
+  padding:64px;
+  background-color: rgba(0,0,0,0)
 }
 
 .portfolio-item .thumb {
@@ -325,6 +331,12 @@ nav {
     left: 0;
 	z-index: 1;
 }
+
+
+.portfolio-item:hover img {
+ /* filter: grayscale(0%);*/
+}
+
 
 .full-screen-portfolio .portfolio-item h1 {
   position: relative;
@@ -571,5 +583,3 @@ footer a:hover {
   text-decoration: none;
   color: #aaa;
 }
-
-
