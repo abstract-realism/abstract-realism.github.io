@@ -359,8 +359,8 @@ nav {
   font-weight: 300!important;
   letter-spacing: 0.5px;
   font-size: 14px;
-  color: #fff;
-  opacity: 0;
+  color: #000;
+  opacity: 1;
   text-transform: uppercase;
  }
 
@@ -371,11 +371,6 @@ nav {
  text-transform: lowercase;
  cursor: pointer;
 }
-
-.full-screen-portfolio .portfolio-item:hover p {
-  opacity: 1;
-  transform: translateY(0);
- }
 
 
 
